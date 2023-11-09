@@ -17,6 +17,7 @@ import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import { useDispatch } from "react-redux";
 import { setSearch } from "@/store/searchSlice";
+import { useRouter } from "next/navigation";
 
 const pages = ["Products", "Pricing", "Blog"];
 
@@ -52,11 +53,13 @@ const Menubar = (props: any) => {
   const [anchorElUser, setAnchorElUser] = useState(null);
   const [input, setInput] = useState("");
   const dispatch = useDispatch();
+  const router = useRouter();
 
   const handleOpenNavMenu = (event: any) => {
     setAnchorElNav(event.currentTarget);
   };
   const handleChange = (event: any) => {
+    router.push("/patients");
     setInput(event.target.value);
     dispatch(setSearch(event.target.value));
   };
@@ -155,6 +158,7 @@ const Menubar = (props: any) => {
                   onBlur={handleChange}
                 />
               </Search>
+              Home
             </Box>
             <div className="avatar-circle">
               <Box sx={{ flexGrow: 0 }}>

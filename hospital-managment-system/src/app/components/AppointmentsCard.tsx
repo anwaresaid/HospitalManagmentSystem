@@ -1,32 +1,9 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import PersonAppointmentCard from "./PersonAppointmentCard";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Chip from "@mui/material/Chip";
 import Typography from "@mui/material/Typography";
-
-const mockData = [
-  {
-    name: "Lavern Laboy",
-    sickness: "Partial Paralysis",
-    time: "11:00 AM - 30 mins",
-  },
-  {
-    name: "Lavern Laboy",
-    sickness: "Partial Paralysis",
-    time: "11:00 AM - 30 mins",
-  },
-  {
-    name: "Lavern Laboy",
-    sickness: "Partial Paralysis",
-    time: "11:00 AM - 30 mins",
-  },
-  {
-    name: "Lavern Laboy",
-    sickness: "Partial Paralysis",
-    time: "11:00 AM - 30 mins",
-  },
-];
 
 const AppointmentsCard = () => {
   const [data, setData] = useState([]);

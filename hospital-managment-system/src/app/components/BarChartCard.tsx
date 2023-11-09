@@ -10,9 +10,9 @@ const BarChartCard = (props: any) => {
   const [axis, setAxis] = useState([]);
 
   useEffect(() => {
-    setAxis(props.data.map((item) => item.month));
-    setMaleSeries(props.data.map((item) => item.male));
-    setFemaleSeries(props.data.map((item) => item.female));
+    setAxis(props.data.map((item: any) => item.month));
+    setMaleSeries(props.data.map((item: any) => item.male));
+    setFemaleSeries(props.data.map((item: any) => item.female));
   }, [props.data]);
 
   return (

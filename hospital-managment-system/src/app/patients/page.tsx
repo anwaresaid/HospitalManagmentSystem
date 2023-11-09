@@ -1,7 +1,6 @@
 "use client";
-import React, { createContext, useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import PersonAppointmentCard from "../components/PersonAppointmentCard";
-import TableComp from "../components/TableComp";
 import DataGridPatients from "../components/DataGridPatients";
 import { useSelector } from "react-redux";
 import { useAppSelector } from "@/store/store";
@@ -21,7 +20,6 @@ const page = () => {
   const [history, setHistory] = useState(null);
   const search = useAppSelector((state) => state.searchReducer.value.search);
   const [patients, setPatients] = useState([]);
-  const [searchPatient, setSearchPatient] = useState();
 
   var temp: any = [];
   useEffect(() => {
@@ -55,11 +53,11 @@ const page = () => {
   };
   return (
     <div>
+      <div className="font-bold text-3xl mb-3">Patients</div>
       {search !== "" ? (
         patientExist() ? (
           <PersonAppointmentCard data={patientExist()} width={"30%"} />
         ) : (
-          // <PersonAppointmentCard />
           <p> Cannot find the patient</p>
         )
       ) : (

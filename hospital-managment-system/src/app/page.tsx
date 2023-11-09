@@ -61,12 +61,12 @@ export default function Home() {
 
   return (
     <main>
+      <div className="font-bold text-3xl mb-3">Home</div>
       <div className="flex flex-row justify-between">
         <AppointmentsCard />
         <div className="right-container">
           <div className="w-full flex flex-row justify-center">
             <Title title={"Dr"} name={"Martin"} />
-            {/* <CurrentDate /> */}
           </div>
           <div className="w-full flex my-5 justify-center">
             <TotalsCard data={totals} />

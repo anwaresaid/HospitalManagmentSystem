@@ -1,5 +1,5 @@
 import React from "react";
-import { DataGrid, GridColDef, GridValueGetterParams } from "@mui/x-data-grid";
+import { DataGrid } from "@mui/x-data-grid";
 
 const DataGridPatients = (props: any) => {
   return (
@@ -12,7 +12,6 @@ const DataGridPatients = (props: any) => {
               lineHeight: "normal",
             },
             "& .MuiDataGrid-columnContent": {
-              // Forced to use important since overriding inline styles
               height: "unset !important",
               maxHeight: "168px !important",
             },
