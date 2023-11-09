@@ -1,0 +1,267 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Albert",
+      "age": 68,
+      "date": "September 23, 2023 11:00",
+      "appointedFor": "Partial Paralysis",
+      "priority": "Medium",
+      "avatar": "/profile2.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Bernard",
+      "age": 22,
+      "date": "September 23, 2023 12:00",
+      "appointedFor": "Sazures",
+      "priority": "Low",
+      "avatar": "/profile3.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Gregory",
+      "age": 56,
+      "date": "September 23, 2023 13:00",
+      "appointedFor": "Mucle Weakness",
+      "priority": "High",
+      "avatar": "/next.svg"
+    },
+    {
+      "id": 4,
+      "name": "Mitchel",
+      "age": 70,
+      "date": "September 23, 2023 14:00",
+      "appointedFor": "Decreased Brain",
+      "priority": "Medium",
+      "avatar": "/profile2.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Ziggy",
+      "age": 32,
+      "date": "September 23, 2023 16:00",
+      "appointedFor": "Difficulty reading",
+      "priority": "High",
+      "avatar": "/profile3.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Randy",
+      "age": 32,
+      "date": "September 23, 2023 16:00",
+      "appointedFor": "Difficulty reading",
+      "priority": "High",
+      "avatar": "/vercel.svg"
+    }
+  ],
+  "totals": [
+    {
+      "icon": "group",
+      "title": "Total Patients",
+      "sum": "146"
+    },
+    {
+      "icon": "payment",
+      "title": "Total Income",
+      "sum": "$3,098"
+    },
+    {
+      "icon": "date",
+      "title": "Total Appointment",
+      "sum": "231"
+    },
+    {
+      "icon": "treatment",
+      "title": "Treatments",
+      "sum": "402"
+    }
+  ],
+  "patientsOverview": [
+    {
+      "id": 0,
+      "value": "170",
+      "label": "Child"
+    },
+    {
+      "id": 2,
+      "value": "279",
+      "label": "teen"
+    },
+    {
+      "id": 3,
+      "value": "68",
+      "label": "adult"
+    },
+    {
+      "id": 4,
+      "value": "201",
+      "label": "Older"
+    }
+  ],
+  "patientsGender": [
+    {
+      "month": "January",
+      "male": 170,
+      "female": 279
+    },
+    {
+      "month": "Feb",
+      "male": 170,
+      "female": 279
+    },
+    {
+      "month": "march",
+      "male": 170,
+      "female": 279
+    },
+    {
+      "month": "april",
+      "male": 170,
+      "female": 279
+    },
+    {
+      "month": "june",
+      "male": 170,
+      "female": 279
+    },
+    {
+      "month": "july",
+      "male": 170,
+      "female": 279
+    }
+  ],
+  "patientAppointments": [
+    {
+      "id": 1,
+      "name": "Albert",
+
+      "appointments": [
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-12-2022",
+          "time": "2 hours"
+        },
+        {
+          "description": "A cardiovascular health checkup focuses on assessing the health of your heart and circulatory system. It typically includes an electrocardiogram (ECG or EKG), blood pressure measurement, cholesterol screening, and discussions about heart health risk factors like diet, exercise, and family history.",
+          "date": "10-01-2023",
+          "time": "2 hours"
+        },
+        {
+          "description": "A women's health checkup is tailored to address specific health concerns related to women. It includes a pelvic examination, breast examination, pap smear (cervical cancer screening), bone density assessment, and discussions about reproductive health and contraception.",
+          "date": "10-02-2023",
+          "time": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bernard",
+
+      "appointments": [
+        {
+          "description": "A men's health checkup is designed to evaluate the well-being of men. It may include a prostate-specific antigen (PSA) test, testicular examination, cholesterol screening, blood pressure measurement, and discussions about lifestyle factors that impact men's health.",
+          "date": "10-12-2022",
+          "time": "2 hours"
+        },
+        {
+          "description": "A child well-visit checkup is a routine examination for children to monitor their growth, development, and general health. It typically includes measurements of height and weight, developmental milestone assessment, immunization review, and discussions about nutrition and safety.",
+          "date": "10-01-2023",
+          "time": "2 hours"
+        },
+        {
+          "description": "A diabetes management checkup is for individuals with diabetes to monitor and manage their condition. It involves blood glucose testing, hemoglobin A1c measurement, diabetic retinopathy screening, and discussions about diabetes management strategies.",
+          "date": "10-02-2023",
+          "time": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Gregory",
+
+      "appointments": [
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-12-2022",
+          "time": "2 hours"
+        },
+        {
+          "description": "A diabetes management checkup is for individuals with diabetes to monitor and manage their condition. It involves blood glucose testing, hemoglobin A1c measurement, diabetic retinopathy screening, and discussions about diabetes management strategies.",
+          "date": "10-01-2023",
+          "time": "2 hours"
+        },
+        {
+          "description": "A child well-visit checkup is a routine examination for children to monitor their growth, development, and general health. It typically includes measurements of height and weight, developmental milestone assessment, immunization review, and discussions about nutrition and safety.",
+          "date": "10-02-2023",
+          "time": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Mitchel",
+
+      "appointments": [
+        {
+          "description": "A men's health checkup is designed to evaluate the well-being of men. It may include a prostate-specific antigen (PSA) test, testicular examination, cholesterol screening, blood pressure measurement, and discussions about lifestyle factors that impact men's health.",
+          "date": "10-12-2022",
+          "time": "2 hours"
+        },
+        {
+          "description": "A diabetes management checkup is for individuals with diabetes to monitor and manage their condition. It involves blood glucose testing, hemoglobin A1c measurement, diabetic retinopathy screening, and discussions about diabetes management strategies.",
+          "date": "10-01-2023",
+          "time": "2 hours"
+        },
+        {
+          "description": "A cardiovascular health checkup focuses on assessing the health of your heart and circulatory system. It typically includes an electrocardiogram (ECG or EKG), blood pressure measurement, cholesterol screening, and discussions about heart health risk factors like diet, exercise, and family history.",
+          "date": "10-02-2023",
+          "time": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ziggy",
+
+      "appointments": [
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-12-2022",
+          "time": "2 hours"
+        },
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-01-2023",
+          "time": "2 hours"
+        },
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-02-2023",
+          "time": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "randy",
+      "appointments": [
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-12-2022",
+          "time": "2 hours"
+        },
+        {
+          "description": "An annual physical examination is a comprehensive health assessment that includes a review of your medical history, vital signs measurement, a thorough physical examination, blood pressure monitoring, cholesterol level assessment, and discussions about your overall health and lifestyle. This checkup is designed to detect and prevent any underlying health issues and promote general well-being.",
+          "date": "10-01-2023",
+          "time": "2 hours"
+        },
+        {
+          "description": "A cardiovascular health checkup focuses on assessing the health of your heart and circulatory system. It typically includes an electrocardiogram (ECG or EKG), blood pressure measurement, cholesterol screening, and discussions about heart health risk factors like diet, exercise, and family history.",
+          "date": "10-02-2023",
+          "time": "2 hours"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  padding: 8rem;
+  background-color: aliceblue;
+}
+.menu-bar {
+  padding: 0;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  background-color: lightgreen;
+  color: white !important;
+  align-items: center;
+}
+.css-cveggr-MuiListItemIcon-root {
+  align-items: center;
+}
+
+.css-19r6kue-MuiContainer-root {
+  display: flex;
+  justify-content: space-between;
+}
+.css-r6ewbb-MuiToolbar-root {
+  width: 100%;
+  justify-content: space-between;
+}
+.css-1t6c9ts {
+  justify-content: center;
+}
+.avatar-circle {
+  display: flex;
+  align-items: end;
+}
+.css-1j047yb-MuiChip-root {
+  background-color: white;
+}
+.right-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+}
+.total-icon-container {
+  width: 50px;
+  padding: 3px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+  align-items: center;
+  margin-right: 10px;
+}
